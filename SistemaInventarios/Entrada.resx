@@ -121,7 +121,7 @@
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAQcAAAOQCAYAAAA0V7R1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EgAACxIB0t1+/AAACelJREFUeF7t1DERACAAAzH8O6wa2LmXkCEWcrZdgJ8cgCQHIMkBSHIAkhyAJAcg
+        DQAACw0B7QfALAAACelJREFUeF7t1DERACAAAzH8O6wa2LmXkCEWcrZdgJ8cgCQHIMkBSHIAkhyAJAcg
         yQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIA
         khyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQH
         IMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhy
@@ -166,6 +166,15 @@
         gCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAQi7D3NMo6009tuPAAAAAElFTkSuQmCC
 </value>
   </data>
+  <metadata name="proveedoresBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>254, 17</value>
+  </metadata>
+  <metadata name="sistemaInventarioDataSet2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="proveedoresTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>493, 17</value>
+  </metadata>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAAAAAAAEAIADoCAAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAEAAAABAAgGAAAAXHKoZgAAAAFv

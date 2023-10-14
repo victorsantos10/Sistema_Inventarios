@@ -117,55 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="entradasBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>254, 17</value>
+  </metadata>
+  <metadata name="sistemaInventarioDataSet3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="entradasTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>467, 17</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAQcAAAOQCAYAAAA0V7R1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAACelJREFUeF7t1DERACAAAzH8O6wa2LmXkCEWcrZdgJ8cgCQHIMkBSHIAkhyAJAcg
-        yQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIA
-        khyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQH
-        IMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhy
-        AJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAk
-        ByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFI
-        cgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyA
-        JAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkB
-        SHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIc
-        gCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJ
-        AUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCS
-        HIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcg
-        yQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIA
-        khyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQH
-        IMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhy
-        AJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAk
-        ByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFI
-        cgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyA
-        JAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkB
-        SHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIc
-        gCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJ
-        AUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCS
-        HIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcg
-        yQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIA
-        khyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQH
-        IMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhy
-        AJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAk
-        ByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFI
-        cgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyA
-        JAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkB
-        SHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIc
-        gCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJ
-        AUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCS
-        HIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcg
-        yQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIA
-        khyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQH
-        IMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhy
-        AJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAk
-        ByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFI
-        cgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyA
-        JAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkB
-        SHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIcgCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAUhyAJIc
-        gCQHIMkBSHIAkhyAJAcgyQFIcgCSHIAkByDJAQi7D3NMo6009tuPAAAAAElFTkSuQmCC
-</value>
-  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAAAAAAAEAIADoCAAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAEAAAABAAgGAAAAXHKoZgAAAAFv

@@ -13,6 +13,21 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -34,7 +49,27 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -59,6 +94,8 @@
     <Compile Include="Entrada.Designer.cs">
       <DependentUpon>Entrada.cs</DependentUpon>
     </Compile>
+    <Compile Include="EntradaClase.cs" />
+    <Compile Include="IngresoUsers.cs" />
     <Compile Include="Inventario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,14 +108,77 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Productos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Productos.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReporteEntradas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporteEntradas.Designer.cs">
+      <DependentUpon>ReporteEntradas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteSalida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporteSalida.Designer.cs">
+      <DependentUpon>ReporteSalida.cs</DependentUpon>
+    </Compile>
     <Compile Include="Salida.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Salida.Designer.cs">
       <DependentUpon>Salida.cs</DependentUpon>
     </Compile>
+    <Compile Include="SistemaInventarioDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SistemaInventarioDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SistemaInventarioDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SistemaInventarioDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SistemaInventarioDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SistemaInventarioDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SistemaInventarioDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SistemaInventarioDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SistemaInventarioDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SistemaInventarioDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SistemaInventarioDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SistemaInventarioDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SistemaInventarioDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SistemaInventarioDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SistemaInventarioDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SistemaInventarioDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SistemaInventarioDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SistemaInventarioDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
     <EmbeddedResource Include="Ajustes.resx">
       <DependentUpon>Ajustes.cs</DependentUpon>
     </EmbeddedResource>
@@ -101,9 +201,27 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="ReporteEntradas.resx">
+      <DependentUpon>ReporteEntradas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteSalida.resx">
+      <DependentUpon>ReporteSalida.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Salida.resx">
       <DependentUpon>Salida.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Productos.xsc">
+      <DependentUpon>Productos.xsd</DependentUpon>
+    </None>
+    <None Include="Productos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Productos.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Productos.xss">
+      <DependentUpon>Productos.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -113,9 +231,142 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="SistemaInventarioDataSet.xsc">
+      <DependentUpon>SistemaInventarioDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SistemaInventarioDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SistemaInventarioDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SistemaInventarioDataSet.xss">
+      <DependentUpon>SistemaInventarioDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SistemaInventarioDataSet1.xsc">
+      <DependentUpon>SistemaInventarioDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SistemaInventarioDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SistemaInventarioDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SistemaInventarioDataSet1.xss">
+      <DependentUpon>SistemaInventarioDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SistemaInventarioDataSet2.xsc">
+      <DependentUpon>SistemaInventarioDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="SistemaInventarioDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SistemaInventarioDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SistemaInventarioDataSet2.xss">
+      <DependentUpon>SistemaInventarioDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="SistemaInventarioDataSet3.xsc">
+      <DependentUpon>SistemaInventarioDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="SistemaInventarioDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SistemaInventarioDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SistemaInventarioDataSet3.xss">
+      <DependentUpon>SistemaInventarioDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="SistemaInventarioDataSet4.xsc">
+      <DependentUpon>SistemaInventarioDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="SistemaInventarioDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SistemaInventarioDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SistemaInventarioDataSet4.xss">
+      <DependentUpon>SistemaInventarioDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="SistemaInventarioDataSet5.xsc">
+      <DependentUpon>SistemaInventarioDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="SistemaInventarioDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SistemaInventarioDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SistemaInventarioDataSet5.xss">
+      <DependentUpon>SistemaInventarioDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="SistemaInventarioDataSet6.xsc">
+      <DependentUpon>SistemaInventarioDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="SistemaInventarioDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SistemaInventarioDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SistemaInventarioDataSet6.xss">
+      <DependentUpon>SistemaInventarioDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="SistemaInventarioDataSet7.xsc">
+      <DependentUpon>SistemaInventarioDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="SistemaInventarioDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SistemaInventarioDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SistemaInventarioDataSet7.xss">
+      <DependentUpon>SistemaInventarioDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="SistemaInventarioDataSet8.xsc">
+      <DependentUpon>SistemaInventarioDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="SistemaInventarioDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SistemaInventarioDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SistemaInventarioDataSet8.xss">
+      <DependentUpon>SistemaInventarioDataSet8.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SistemaInventario.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SistemaInventario_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>SistemaInventario.mdf</DependentUpon>
+    </Content>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
